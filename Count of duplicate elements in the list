@@ -1,0 +1,12 @@
+l=input().split()
+t=[]
+for i in l:
+	t.append(int(i))
+x=[]
+c=0
+for i in t:
+	if i not in x:
+		x.append(i)
+	else:
+		c+=1
+print(" count of  duplicate values:",c)
